@@ -40,7 +40,7 @@ namespace Banco
                 message.IsBodyHtml = false;
 
                 //Anexar um arquivo (opcional)
-                Attachment attachment = new Attachment("Caminho da pasta onde esta os arquivos" + textBoxAnexo.Text);
+                Attachment attachment = new Attachment("Caminho da pasta onde esta os arquivos + \\" + textBoxAnexo.Text);
                 message.Attachments.Add(attachment);
 
 
